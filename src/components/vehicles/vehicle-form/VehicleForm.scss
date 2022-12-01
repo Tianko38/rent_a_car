@@ -1,0 +1,19 @@
+.vehicle-form-wrapper{
+    height: calc(100vh - 100px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    Form{
+        border: 1px solid gray;
+        padding: 20px;
+        border-radius: 10px;
+        width: 400px;
+        text-align: left;
+
+        Button{
+            margin-top: 15px;
+            margin-left: 140px;
+        }
+    }
+}

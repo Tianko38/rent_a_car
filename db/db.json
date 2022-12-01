@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "isActive": true,
+      "picture": "",
+      "name": "Stoyan Jekov",
+      "email": "tianko@gmail.com",
+      "phone": "",
+      "password": "123456",
+      "location": "Burgas, Bulgaria",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "isActive": true,
+      "picture": "",
+      "name": "Hristo Gochev",
+      "email": "hristo@gmail.com",
+      "phone": "",
+      "password": "123456",
+      "location": "Plovdiv, Bulgaria",
+      "role": "user"
+    },
+    {
+      "id": "3",
+      "isActive": true,
+      "picture": "",
+      "name": "Nikolai Naidenov",
+      "email": "nikolai@gmail.com",
+      "phone": "",
+      "password": "123456",
+      "location": "Burgas, Bulgaria",
+      "role": "user"
+    },
+    {
+      "id": "4",
+      "isActive": true,
+      "picture": "",
+      "name": "Teodor Lefterov",
+      "email": "teodor@gmail.com",
+      "phone": "",
+      "password": "123456",
+      "location": "Varna, Bulgaria",
+      "role": "user"
+    },
+    {
+      "id": "5",
+      "isActive": true,
+      "picture": "",
+      "name": "Alexander Georgiev",
+      "email": "alexander@gmail.com",
+      "phone": "",
+      "password": "123456",
+      "location": "Burgas, Bulgaria",
+      "role": "user"
+    }
+  ],
+  "vehicles": [
+    {
+      "type": "luxury",
+      "brand": "VW",
+      "model": "Passat",
+      "year": "2016",
+      "fuel": "diesel",
+      "seats": "5",
+      "picture": "https://g1-bg.cars.bg/2022-11-07_2/6368da6db68437c5c307dc82o.jpg",
+      "pricePerDay": "50",
+      "count": "3",
+      "id": 7
+    },
+    {
+      "type": "estate",
+      "brand": "Mercedes-Benz",
+      "model": "C 220",
+      "year": "2009",
+      "fuel": "diesel",
+      "seats": "5",
+      "picture": "https://g1-bg.cars.bg/2022-08-17_2/62fd171fe666139b710d5214o.jpg",
+      "pricePerDay": "50",
+      "count": "2",
+      "id": 8
+    },
+    {
+      "type": "economy",
+      "brand": "Audi",
+      "model": "A3",
+      "year": "2008",
+      "fuel": "petrol",
+      "seats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-10-07_2/63403fe3773e6b35b002b852o.jpg",
+      "pricePerDay": "30",
+      "count": "4",
+      "id": 9
+    },
+    {
+      "type": "economy",
+      "brand": "Toyota",
+      "model": "C-HR",
+      "year": "2020",
+      "fuel": "hybrid",
+      "seats": "4",
+      "picture": "https://mobistatic2.focus.bg/mobile/photosorg/823/2/big1/21669733114825823_9F.jpg",
+      "pricePerDay": "30",
+      "count": "5",
+      "id": 10
+    },
+    {
+      "type": "luxury",
+      "brand": "Audi",
+      "model": "A8",
+      "year": "2015",
+      "fuel": "diesel",
+      "seats": "4",
+      "picture": "https://g1-bg.cars.bg/2022-07-28_2/62e28d5db2c76c33060347b3o.jpg",
+      "pricePerDay": "50",
+      "count": "2",
+      "id": 11
+    }
+  ],
+  "rentals": []
+}

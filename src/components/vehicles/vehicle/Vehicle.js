@@ -1,0 +1,22 @@
+import { useEffect, useState } from "react";
+import { useParams } from 'react-router-dom';
+import { getVehicleById } from "../../../utils/http-utils/vehicles-requests";
+import { VehicleCard } from "../vehicle-card/VehicleCard";
+import './Vehicle.scss';
+
+export function Vehicle(props){
+    const params = useParams();
+    const [vehicle, setVehicle] = useState(null);
+
+    console.log(params);
+
+    useEffect(() => {
+        getVehicleById(params.id).then(response => setVehicle(response.data));
+    }, [params.id]);
+
+    return(
+        <div className="vehicle">
+            <VehicleCard vehicle={vehicle}/>
+        </div>
+    );
+}
